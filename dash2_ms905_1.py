@@ -182,6 +182,7 @@ def get_cantour():
 # ========================
 # 2. Título e Menu Interativo
 # ========================
+st.set_page_config(page_title="Análise de Dados", layout="wide")
 st.header("Análise de Dados - Presença de Doenças Cardíacas")
 
 # Menu de seleção de visualizações
