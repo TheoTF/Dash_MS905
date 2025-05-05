@@ -19,7 +19,7 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-st.set_page_config(page_title="Análise de Dados", layout="wide")
+
 #st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
 
 # ========================
