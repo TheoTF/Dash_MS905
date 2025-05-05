@@ -19,7 +19,7 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-
+st.set_page_config(page_title="Análise de Dados", layout="wide")
 #st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
 
 # ========================
@@ -182,7 +182,7 @@ def get_cantour():
 # ========================
 # 2. Título e Menu Interativo
 # ========================
-st.set_page_config(page_title="Análise de Dados", layout="wide")
+
 st.header("Análise de Dados - Presença de Doenças Cardíacas")
 
 # Menu de seleção de visualizações
